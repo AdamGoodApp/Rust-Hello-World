@@ -1,0 +1,6 @@
+fn main() {
+    println!("Welcome to, guess the number!");
+    println!("Please enter your number");
+
+    l
+}

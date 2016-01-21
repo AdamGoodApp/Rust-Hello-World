@@ -1,0 +1,20 @@
+use std::io;
+
+fn main() {
+    println!("Welcome to, guess the number!");
+    println!("Please enter your number");
+
+    let mut guess = String::new();
+    let mut number = 35;
+
+     io::stdin().read_line(&mut guess)
+        .expect("Failed to read line");
+
+    println!("You guessed: {}", guess);
+
+    if guess > number {
+        println!("Lower!");
+    } elseif {
+        // add code here
+    }
+}
